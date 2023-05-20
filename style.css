@@ -158,6 +158,7 @@
 
 
     .footer{
+        margin-top: 3rem;
         display: flex;
         width:auto;
     
@@ -171,8 +172,8 @@
     }
 
     .git-logo {
-        margin-top: 5rem;
-        max-height: 2rem; /* Set a maximum height for the logo */
+        margin-top: 1rem;
+        max-height: 4rem; /* Set a maximum height for the logo */
         max-width: 100%; /* Allow the logo to resize based on container width */
     }
     
