@@ -136,3 +136,44 @@
     margin-left: 1rem;
     padding-left: 0.5rem;
 }
+
+@media (max-width: 768px){
+    .login-box {
+        /* margin-top: 30rem; */
+        width: 90%; /* Adjust the width as per your preference */
+        max-width: 350px; /* Set a maximum width to limit the size on larger screens */
+        margin: auto;
+        margin-top: 5rem;
+        height: auto; /* Remove fixed height to allow content to expand */
+    }
+
+    .sign-in-line {
+        font-size: 1.2rem; /* Decrease the font size for better visibility on mobile */
+        word-spacing: 0.2rem; /* Add a small spacing between words */
+    }
+    
+    .usrname {
+        font-size: 0.8rem; /* Decrease the font size for better visibility on mobile */
+    }
+
+
+    .footer{
+        display: flex;
+        width:auto;
+    
+
+    }
+
+    .below-footer {
+        display: flex;
+        flex-direction:row ; /* Change the direction to column on smaller screens */
+        width: 80%; /* Adjust the width as per your preference */
+    }
+
+    .git-logo {
+        margin-top: 5rem;
+        max-height: 2rem; /* Set a maximum height for the logo */
+        max-width: 100%; /* Allow the logo to resize based on container width */
+    }
+    
+}
