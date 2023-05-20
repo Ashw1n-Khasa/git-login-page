@@ -15,7 +15,7 @@
     font-weight: 100;
     color:rgb(52, 51, 51);
     margin: auto;
-    word-spacing: 0rem;
+    word-spacing: -0.6rem;
     font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
     justify-content: center;
     /* border: solid black 1px; */
@@ -46,6 +46,8 @@
     width: 100%;
     font-size: 0.9rem;
     height: 1 rem;
+    /* font-weight: 300; */
+    word-spacing: 3px;
     justify-content: left;
     /* margin-left: auto;
     margin-right: auto; */
@@ -53,6 +55,7 @@
     /* justify-content: center; */
     /* margin-top: 1rem; */
 }
+
 
 #email-k-upr{
     margin-left: 0rem;
@@ -68,7 +71,7 @@
     padding-bottom: 5px;
     padding-right: 12px;
     padding-left:12px ;
-    height: 2rem;
+    height: 1.25rem;
     width: 90%;
     margin: auto;
     margin-top: 1rem;
@@ -139,42 +142,43 @@
 
 @media (max-width: 768px){
     .login-box {
-        /* margin-top: 30rem; */
-        width: 90%; /* Adjust the width as per your preference */
-        max-width: 350px; /* Set a maximum width to limit the size on larger screens */
+        
+        width: 70;
+        max-width: 350px;
         margin: auto;
-        margin-top: 3rem;
-        height: auto; /* Remove fixed height to allow content to expand */
+        margin-top: 0rem;
+        height: auto; 
     }
 
     .sign-in-line {
-        font-size: 1.2rem; /* Decrease the font size for better visibility on mobile */
-        word-spacing: 0.2rem; /* Add a small spacing between words */
+        font-size: 1.2rem; 
+        word-spacing: 0.2rem; 
     }
     
     .usrname {
-        font-size: 0.8rem; /* Decrease the font size for better visibility on mobile */
+        font-size: 0.8rem; 
     }
 
 
     .footer{
-        margin-top: 5rem;
+        margin-top: 1rem;
         display: flex;
-        width:auto;
+        width:70%;
     
 
     }
 
     .below-footer {
         display: flex;
-        flex-direction:row ; /* Change the direction to column on smaller screens */
-        width: 80%; /* Adjust the width as per your preference */
+        margin-top: 5rem;
+        flex-direction:row ;
+        width: 80%; 
     }
 
     .git-logo {
-        margin-top: 1rem;
-        max-height: 4rem; /* Set a maximum height for the logo */
-        max-width: 100%; /* Allow the logo to resize based on container width */
+        margin-top: 0rem;
+        max-height: 4rem; 
+        max-width: 100%;
     }
     
 }
